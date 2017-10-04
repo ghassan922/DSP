@@ -1,0 +1,7 @@
+function i = lab_3_p2(a,b)
+
+[a,p] = residuez(a,b);
+x = ifft(a,b);
+zplane([0 1],p);
+plot(x);
+end
